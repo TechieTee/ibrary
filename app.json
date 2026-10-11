@@ -10,6 +10,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.ibrarylearning.app",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -20,6 +21,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "05820f52-496f-45fb-8f7f-22fbc57c0e4b"
+      }
+    },
+    "owner": "fatima-expo"
   }
 }
